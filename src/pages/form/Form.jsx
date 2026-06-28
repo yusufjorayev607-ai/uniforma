@@ -4,7 +4,7 @@ import { FiArrowRight, FiChevronDown, FiPhone, FiUser } from 'react-icons/fi'
 import { GiSewingString, GiTie } from 'react-icons/gi'
 import { MdOutlineCheckroom } from 'react-icons/md'
 import { TbShirt } from 'react-icons/tb'
-import './Form.css'
+import './form.css'
 
 const TG_TOKEN = '8736648245:AAHBXLr4_LnzJof8lMOeTku-RBvqbjKVqqE'
 const TG_CHAT_ID = '5425502072'
