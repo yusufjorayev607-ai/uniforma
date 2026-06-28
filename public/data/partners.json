@@ -1,0 +1,29 @@
+{
+	"title": "Bizga ishonch bildirgan hamkorlarimiz",
+	"partners": [
+		{
+			"name": "Artel",
+			"logo": "/image/artel-electronics-logo-brandlogos.net_bctympss5.svg"
+		},
+		{
+			"name": "AKFA",
+			"logo": "/image/akfa-group-logo.svg"
+		},
+		{
+			"name": "Lukoil",
+			"logo": "/image/akfa-group-logo.svg"
+		},
+		{
+			"name": "Murad Buildings",
+			"logo": "/image/artel-electronics-logo-brandlogos.net_bctympss5.svg"
+		},
+		{
+			"name": "Royal",
+			"logo": "/image/akfa-group-logo.svg"
+		},
+		{
+			"name": "Rayal",
+			"logo": "/image/akfa-group-logo.svg"
+		}
+	]
+}

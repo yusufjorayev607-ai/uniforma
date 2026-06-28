@@ -1,0 +1,45 @@
+{
+	"title": "Buyurtma jarayoni",
+	"steps": [
+		{
+			"step": 1,
+			"title": "Buyurtma qabul qilinadi",
+			"icon": "public/icons/clipboard-list (1).svg"
+		},
+		{
+			"step": 2,
+			"title": "Model tanlanadi yoki namunadan olinadi",
+			"icon": "public/icons/shirt.svg "
+		},
+		{
+			"step": 3,
+			"title": "Mato tanlanadi va xarid qilinadi",
+			"icon": "public/icons/swatch-book.svg "
+		},
+		{
+			"step": 4,
+			"title": "Mutaxassis tomonidan namuna tikiladi",
+			"icon": "public/icons/needle-thread.svg "
+		},
+		{
+			"step": 5,
+			"title": "Namuna mijozga taqdim etiladi",
+			"icon": "public/icons/file-check.svg "
+		},
+		{
+			"step": 6,
+			"title": "Razmerlar olinadi",
+			"icon": "public/icons/ruler-dimension-line.svg"
+		},
+		{
+			"step": 7,
+			"title": "Materiallar ishlab chiqarishga topshiriladi",
+			"icon": "public/icons/spool.svg"
+		},
+		{
+			"step": 8,
+			"title": "Tayyor mahsulot topshiriladi",
+			"icon": "public/icons/truck.svg"
+		}
+	]
+}

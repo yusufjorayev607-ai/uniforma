@@ -1,0 +1,24 @@
+.partners {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.partners__img {
+	margin-bottom: 50px;
+}
+.test {
+	padding-top: 50px;
+	background-color: #030e1d36;
+	height: 250px;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+@media (max-width: 768px) {
+	.partners__img {
+		width: 50px;
+	}
+	.test {
+		height: 100px;
+	}
+}
