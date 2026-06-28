@@ -1,6 +1,6 @@
 import About from './about/About'
 import Contact from './contact/Contact'
-import Form from './form/form'
+import Form from './form/Form'
 import Home from './home/Home'
 import Partners from './partners/Partners'
 import Portfolio from './portfolio/Portfolio'

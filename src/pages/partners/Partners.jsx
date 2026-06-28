@@ -1,4 +1,4 @@
-import { useFetch } from '../../hooks/usefetch'
+import { useFetch } from '../../hooks/useFetch'
 import './partners.css'
 function Partners() {
 	const { data, isPending, error } = useFetch('/data/partners.json')

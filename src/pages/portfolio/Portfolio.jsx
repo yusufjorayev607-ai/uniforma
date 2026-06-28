@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useFetch } from '../../hooks/usefetch'
+import { useFetch } from '../../hooks/useFetch'
 import './portfolio.css'
 function Portfolio() {
 	const { data, isPending, error } = useFetch('public/data/portfolio.json')

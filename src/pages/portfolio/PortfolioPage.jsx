@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom'
-import { useFetch } from '../../hooks/usefetch'
-import './portfoliopage.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { useFetch } from '../../hooks/useFetch'
 import PortfolioModal from './PortfolioModal'
+import './portfoliopage.css'
 function PortfolioPage() {
 	const { data, isPending, error } = useFetch('public/data/portfolio.json')
 	const [selectedItem, setSelectedItem] = useState(null)
