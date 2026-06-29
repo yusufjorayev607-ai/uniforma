@@ -2,7 +2,7 @@ import { useFetch } from '../../hooks/useFetch'
 import './process.css'
 
 function Process() {
-	const { data } = useFetch('public/data/process.json')
+	const { data } = useFetch('/data/process.json')
 
 	return (
 		<section className='process container'>

@@ -4,7 +4,7 @@ import { useFetch } from '../../hooks/useFetch'
 import PortfolioModal from './PortfolioModal'
 import './portfoliopage.css'
 function PortfolioPage() {
-	const { data, isPending, error } = useFetch('public/data/portfolio.json')
+	const { data, isPending, error } = useFetch('/data/portfolio.json')
 	const [selectedItem, setSelectedItem] = useState(null)
 	{
 		isPending && <div>Loader ...</div>

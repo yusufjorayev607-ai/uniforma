@@ -2,7 +2,7 @@ import { useFetch } from '../../hooks/useFetch'
 import './services.css'
 
 function Services() {
-	const { data, isPending, error } = useFetch('public/data/services.json')
+	const { data, isPending, error } = useFetch('/data/services.json')
 
 	{
 		isPending && <div>Loader ...</div>

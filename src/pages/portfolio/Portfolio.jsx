@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useFetch } from '../../hooks/useFetch'
 import './portfolio.css'
 function Portfolio() {
-	const { data, isPending, error } = useFetch('public/data/portfolio.json')
+	const { data, isPending, error } = useFetch('/data/portfolio.json')
 
 	{
 		isPending && <div>Loader ...</div>

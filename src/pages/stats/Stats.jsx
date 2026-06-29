@@ -1,7 +1,7 @@
 import { useFetch } from '../../hooks/useFetch'
 import './stats.css'
 function Stats() {
-	const { data } = useFetch('public/data/stats.json')
+	const { data } = useFetch('/data/stats.json')
 
 	return (
 		<>
