@@ -4,7 +4,7 @@
 			"id": 1,
 			"title": "Ishchi Forma",
 			"category": "Ishchi forma",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Zavod va ishlab chiqarish korxonalari uchun maxsus tikilgan ishchi forma.",
 			"material": "Paxta va polyester aralashmasi",
 			"color": "To'q ko'k"
@@ -13,7 +13,7 @@
 			"id": 2,
 			"title": "Qurilish Formasi",
 			"category": "Qurilish",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Qurilish maydonlarida foydalanish uchun mustahkam forma.",
 			"material": "Yuqori zichlikdagi mato",
 			"color": "To'q sariq"
@@ -22,7 +22,7 @@
 			"id": 3,
 			"title": "Korporativ Forma",
 			"category": "Korporativ",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Ofis va xizmat ko'rsatish xodimlari uchun forma.",
 			"material": "Premium kostyumbop mato",
 			"color": "Qora"
@@ -31,7 +31,7 @@
 			"id": 4,
 			"title": "Payvandchi Formasi",
 			"category": "Maxsus kiyim",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Payvandlash ishlari uchun himoyalangan forma.",
 			"material": "Issiqlikka chidamli mato",
 			"color": "Kulrang"
@@ -40,7 +40,7 @@
 			"id": 5,
 			"title": "Elektrik Formasi",
 			"category": "Maxsus kiyim",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Elektr montaj ishlari uchun xavfsiz forma.",
 			"material": "Dielektrik mato",
 			"color": "Ko'k"
@@ -49,7 +49,7 @@
 			"id": 6,
 			"title": "Omborxona Formasi",
 			"category": "Ishchi forma",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Logistika va ombor xodimlari uchun.",
 			"material": "Polyester",
 			"color": "Kulrang"
@@ -58,7 +58,7 @@
 			"id": 7,
 			"title": "Restoran Formasi",
 			"category": "Xizmat ko'rsatish",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Oshpaz va xizmat ko'rsatish xodimlari uchun.",
 			"material": "Yengil paxta",
 			"color": "Oq"
@@ -67,7 +67,7 @@
 			"id": 8,
 			"title": "Reception Forma",
 			"category": "Korporativ",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Qabulxona xodimlari uchun zamonaviy forma.",
 			"material": "Premium mato",
 			"color": "Qora"
@@ -76,7 +76,7 @@
 			"id": 9,
 			"title": "Qishki Ishchi Forma",
 			"category": "Mavsumiy",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Sovuq ob-havo uchun maxsus forma.",
 			"material": "Issiqlik saqlovchi mato",
 			"color": "To'q ko'k"
@@ -85,7 +85,7 @@
 			"id": 10,
 			"title": "Yozgi Ishchi Forma",
 			"category": "Mavsumiy",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Issiq ob-havo uchun yengil forma.",
 			"material": "Nafas oluvchi mato",
 			"color": "Kulrang"
@@ -94,7 +94,7 @@
 			"id": 11,
 			"title": "Signal Forma",
 			"category": "Xavfsizlik",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Yuqori ko'rinishga ega maxsus kiyim.",
 			"material": "Reflektorli mato",
 			"color": "Sariq"
@@ -103,7 +103,7 @@
 			"id": 12,
 			"title": "Muhandis Formasi",
 			"category": "Korporativ",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Muhandis va texnik xodimlar uchun.",
 			"material": "Premium aralash mato",
 			"color": "Ko'k"
@@ -112,7 +112,7 @@
 			"id": 13,
 			"title": "Maxsus Buyurtma 1",
 			"category": "Individual",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Mijoz talabiga ko'ra ishlab chiqarilgan forma.",
 			"material": "Individual tanlov",
 			"color": "Qora"
@@ -121,7 +121,7 @@
 			"id": 14,
 			"title": "Maxsus Buyurtma 2",
 			"category": "Individual",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Korporativ buyurtma asosida tikilgan.",
 			"material": "Premium mato",
 			"color": "Ko'k"
@@ -130,7 +130,7 @@
 			"id": 15,
 			"title": "Maxsus Buyurtma 3",
 			"category": "Individual",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Eksklyuziv dizayn asosida tikilgan.",
 			"material": "Premium mato",
 			"color": "Kulrang"
@@ -139,7 +139,7 @@
 			"id": 16,
 			"title": "Kombinezon",
 			"category": "Ishchi forma",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Ishlab chiqarish korxonalari uchun kombinezon.",
 			"material": "Mustahkam mato",
 			"color": "Ko'k"
@@ -148,7 +148,7 @@
 			"id": 17,
 			"title": "Neft-Gaz Formasi",
 			"category": "Maxsus kiyim",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Neft va gaz sanoati uchun.",
 			"material": "Yong'inga chidamli mato",
 			"color": "Qizil"
@@ -157,7 +157,7 @@
 			"id": 18,
 			"title": "Texnik Xodim Formasi",
 			"category": "Ishchi forma",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Texnik xizmat ko'rsatish mutaxassislari uchun.",
 			"material": "Polyester",
 			"color": "Kulrang"
@@ -166,7 +166,7 @@
 			"id": 19,
 			"title": "Servis Xodimi Formasi",
 			"category": "Xizmat ko'rsatish",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Servis markazlari uchun forma.",
 			"material": "Yengil mato",
 			"color": "Ko'k"
@@ -175,7 +175,7 @@
 			"id": 20,
 			"title": "Xavfsizlik Xodimi Formasi",
 			"category": "Xavfsizlik",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Qo'riqlash xizmatlari uchun forma.",
 			"material": "Mustahkam mato",
 			"color": "Qora"
@@ -184,7 +184,7 @@
 			"id": 21,
 			"title": "Sklad Formasi",
 			"category": "Logistika",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Sklad va logistika markazlari uchun.",
 			"material": "Polyester",
 			"color": "Kulrang"
@@ -193,7 +193,7 @@
 			"id": 22,
 			"title": "Ishlab Chiqarish Formasi",
 			"category": "Ishchi forma",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Katta ishlab chiqarish korxonalari uchun.",
 			"material": "Paxta va polyester",
 			"color": "Ko'k"
@@ -202,7 +202,7 @@
 			"id": 23,
 			"title": "Premium Forma",
 			"category": "Korporativ",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Premium segment uchun forma.",
 			"material": "Premium mato",
 			"color": "Qora"
@@ -211,7 +211,7 @@
 			"id": 24,
 			"title": "Brendlangan Forma",
 			"category": "Korporativ",
-			"image": "public/image/partfolio.png",
+			"image": "/image/partfolio.png",
 			"description": "Kompaniya logotipi bilan ishlab chiqarilgan.",
 			"material": "Premium mato",
 			"color": "To'q ko'k"
