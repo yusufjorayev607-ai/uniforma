@@ -1,6 +1,12 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BsBriefcase } from 'react-icons/bs'
-import { FiArrowRight, FiChevronDown, FiPhone, FiUser } from 'react-icons/fi'
+import {
+	FiArrowRight,
+	FiChevronDown,
+	FiPhone,
+	FiUser,
+	FiX,
+} from 'react-icons/fi'
 import { GiSewingString, GiTie } from 'react-icons/gi'
 import { MdOutlineCheckroom } from 'react-icons/md'
 import { TbShirt } from 'react-icons/tb'
@@ -23,7 +29,38 @@ const validPhone = p =>
 	/^998\d{9}$/.test(p.replace(/\s/g, '')) ||
 	/^\d{9}$/.test(p.replace(/\s/g, ''))
 
+/* ── Modal wrapper (export qilinadi, button uchun) ── */
+export function FormModal({ onClose }) {
+	useEffect(() => {
+		document.body.style.overflow = 'hidden'
+		return () => {
+			document.body.style.overflow = ''
+		}
+	}, [])
+
+	return (
+		<div className='kk-overlay' onClick={onClose}>
+			<div className='kk-modal' onClick={e => e.stopPropagation()}>
+				<button className='kk-close' onClick={onClose} aria-label='Yopish'>
+					<FiX size={16} />
+				</button>
+				<FormInner onDone={onClose} />
+			</div>
+		</div>
+	)
+}
+
+/* ── Inline versiya (footer uchun) ── */
 export default function Form() {
+	return (
+		<section className='kk'>
+			<FormInner />
+		</section>
+	)
+}
+
+/* ── Asosiy forma logikasi ── */
+function FormInner({ onDone }) {
 	const [d, setD] = useState(EMPTY)
 	const [open, setOpen] = useState(false)
 	const [errs, setErrs] = useState({})
@@ -62,12 +99,12 @@ export default function Form() {
 				'🏢 *Kompaniya:* ' +
 				d.company +
 				'\n' +
-				(prod ? prod.emoji + ' *Mahsulot:* ' : '📦 *Mahsulot:* ') +
+				(prod ? prod.emoji : '📦') +
+				' *Mahsulot:* ' +
 				d.product +
 				'\n' +
 				'📞 *Telefon:* ' +
 				d.phone
-
 			const res = await fetch(
 				'https://api.telegram.org/bot' +
 					TG_TOKEN +
@@ -87,97 +124,102 @@ export default function Form() {
 		}
 	}
 
+	if (status === 'ok')
+		return (
+			<div className='kk-ok'>
+				<div className='kk-ok-circle'>✓</div>
+				<h3>Muvaffaqiyatli yuborildi!</h3>
+				<p>Tez orada siz bilan bog'lanamiz.</p>
+				<button
+					className='kk-btn'
+					onClick={() => {
+						setStatus('idle')
+						onDone?.()
+					}}
+				>
+					Yangi ariza <FiArrowRight />
+				</button>
+			</div>
+		)
+
 	return (
-		<section className='kk'>
-			{status === 'ok' ? (
-				<div className='kk-ok'>
-					<div className='kk-ok-circle'>✓</div>
-					<h3>Muvaffaqiyatli yuborildi!</h3>
-					<p>Tez orada siz bilan bog'lanamiz.</p>
-					<button className='kk-btn' onClick={() => setStatus('idle')}>
-						Yangi ariza <FiArrowRight />
-					</button>
+		<div className='kk-body'>
+			<F icon={<FiUser />} err={errs.name}>
+				<input
+					className={'kk-inp' + (errs.name ? ' e' : '')}
+					placeholder='Ismingiz *'
+					value={d.name}
+					onChange={ev => set('name', ev.target.value)}
+				/>
+			</F>
+
+			<F icon={<BsBriefcase />} err={errs.company}>
+				<input
+					className={'kk-inp' + (errs.company ? ' e' : '')}
+					placeholder='Kompaniya nomi *'
+					value={d.company}
+					onChange={ev => set('company', ev.target.value)}
+				/>
+			</F>
+
+			<F icon={<MdOutlineCheckroom />} err={errs.product}>
+				<div
+					className={'kk-drop' + (errs.product ? ' e' : '')}
+					onClick={() => setOpen(v => !v)}
+				>
+					<span className={d.product ? '' : 'ph'}>
+						{d.product || 'Qanday mahsulot kerak?'}
+					</span>
+					<FiChevronDown className={'arr' + (open ? ' up' : '')} />
 				</div>
-			) : (
-				<div className='kk-body'>
-					<F icon={<FiUser />} err={errs.name}>
-						<input
-							className={'kk-inp' + (errs.name ? ' e' : '')}
-							placeholder='Ismingiz *'
-							value={d.name}
-							onChange={ev => set('name', ev.target.value)}
-						/>
-					</F>
+				{open && (
+					<ul className='kk-list'>
+						{PRODUCTS.map(p => (
+							<li
+								key={p.label}
+								className={d.product === p.label ? 's' : ''}
+								onClick={() => {
+									set('product', p.label)
+									setOpen(false)
+								}}
+							>
+								<span className='li-ic'>{p.icon}</span>
+								{p.label}
+							</li>
+						))}
+					</ul>
+				)}
+			</F>
 
-					<F icon={<BsBriefcase />} err={errs.company}>
-						<input
-							className={'kk-inp' + (errs.company ? ' e' : '')}
-							placeholder='Kompaniya nomi *'
-							value={d.company}
-							onChange={ev => set('company', ev.target.value)}
-						/>
-					</F>
+			<F icon={<FiPhone />} err={errs.phone}>
+				<input
+					className={'kk-inp' + (errs.phone ? ' e' : '')}
+					type='tel'
+					placeholder='+998 90 123 45 67'
+					value={d.phone}
+					onChange={ev => set('phone', ev.target.value)}
+				/>
+			</F>
 
-					<F icon={<MdOutlineCheckroom />} err={errs.product}>
-						<div
-							className={'kk-drop' + (errs.product ? ' e' : '')}
-							onClick={() => setOpen(v => !v)}
-						>
-							<span className={d.product ? '' : 'ph'}>
-								{d.product || 'Qanday mahsulot kerak?'}
-							</span>
-							<FiChevronDown className={'arr' + (open ? ' up' : '')} />
-						</div>
-						{open && (
-							<ul className='kk-list'>
-								{PRODUCTS.map(p => (
-									<li
-										key={p.label}
-										className={d.product === p.label ? 's' : ''}
-										onClick={() => {
-											set('product', p.label)
-											setOpen(false)
-										}}
-									>
-										<span className='li-ic'>{p.icon}</span>
-										{p.label}
-									</li>
-								))}
-							</ul>
-						)}
-					</F>
-
-					<F icon={<FiPhone />} err={errs.phone}>
-						<input
-							className={'kk-inp' + (errs.phone ? ' e' : '')}
-							type='tel'
-							placeholder='+998 90 123 45 67'
-							value={d.phone}
-							onChange={ev => set('phone', ev.target.value)}
-						/>
-					</F>
-
-					{status === 'fail' && (
-						<p className='kk-fail'>Xatolik yuz berdi. Qayta urinib ko'ring.</p>
-					)}
-
-					<button
-						className='kk-btn'
-						onClick={handleSubmit}
-						disabled={status === 'loading'}
-					>
-						{status === 'loading' ? (
-							'Yuborilmoqda…'
-						) : (
-							<>
-								<span>YUBORISH</span>
-								<FiArrowRight />
-							</>
-						)}
-					</button>
-				</div>
+			{status === 'fail' && (
+				<p className='kk-fail'>Xatolik yuz berdi. Qayta urinib ko'ring.</p>
 			)}
-		</section>
+
+			<button
+				className='kk-btn'
+				onClick={handleSubmit}
+				disabled={status === 'loading'}
+			>
+				{status === 'loading' ? (
+					'Yuborilmoqda…'
+				) : (
+					<>
+						<span>YUBORISH</span>
+						<FiArrowRight />
+					</>
+				)}
+			</button>
+		</div>
 	)
 }
 

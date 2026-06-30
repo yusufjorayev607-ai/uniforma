@@ -24,6 +24,27 @@
 .portfolio__btn:hover {
 	background-color: #8b6236;
 }
+@media (max-width: 1024px) {
+	.portfolio__image {
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+	.portfolio__image-item:last-child {
+		display: none;
+	}
+
+	.portfolio__image-img {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.portfolio__btn {
+		margin-bottom: 20px;
+		width: 80%;
+	}
+}
 @media (max-width: 768px) {
 	.portfolio__image {
 		flex-direction: column;

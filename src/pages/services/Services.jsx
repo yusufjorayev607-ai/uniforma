@@ -14,7 +14,7 @@ function Services() {
 	return (
 		<>
 			{data && <h2 className='title'>{data.title}</h2>}
-			<div className='services__test'>
+			<div className='services__test container'>
 				{data &&
 					data.services.map(service => (
 						<div className='services container' key={service.id}>

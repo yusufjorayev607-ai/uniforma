@@ -80,7 +80,7 @@ small {
 	color: #8b6236;
 	flex-shrink: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.modal {
 		flex-direction: column;
 		padding: 0;
@@ -89,13 +89,40 @@ small {
 		margin-left: 0;
 	}
 	.modal-image {
-		height: 400px;
+		height: 100%;
 		width: 100%;
 	}
 	.modal__info {
 		margin-left: 0;
 		width: 100%;
 		padding: 20px;
+	}
+	.ramka {
+		width: 80%;
+	}
+	.modal__btn {
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
+}
+@media (max-width: 767px) {
+	.modal {
+		flex-direction: column;
+		padding: 0;
+	}
+	.modal__image {
+		margin-left: 0;
+	}
+	.modal-image {
+		width: 100%;
+	}
+	.modal__info {
+		margin-left: 0;
+		width: 100%;
+		padding: 20px;
+	}
+	.modal__info-title {
+		font-size: 40px;
 	}
 	.ramka {
 		width: 80%;

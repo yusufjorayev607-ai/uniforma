@@ -37,6 +37,21 @@
 .stats__card-label {
 	font-size: 22px;
 }
+@media (max-width: 1024px) {
+	.stats__card-img {
+		border: solid 2px #8b6236;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		padding: 15px;
+	}
+	.stats__card-value {
+		font-size: 40px;
+	}
+	.stats__card-label {
+		font-size: 18px;
+	}
+}
 @media (max-width: 768px) {
 	.stats__card {
 		width: 30px;
@@ -46,7 +61,7 @@
 		height: 25px;
 	}
 	.stats__card-value {
-		font-size: 30px;
+		font-size: 26px;
 	}
 	.stats__card-label {
 		font-size: 16px;

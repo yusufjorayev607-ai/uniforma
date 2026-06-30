@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { FormModal } from '../form/Form'
 import './home.css'
 
 function Home() {
+	const [showForm, setShowForm] = useState(false)
 	return (
 		<div className='hero container'>
 			<div className='hero__info'>
@@ -13,10 +16,13 @@ function Home() {
 					kompaniyalar ishonchli hamkori
 				</p>
 				<div className='btn__test'>
-					<button className='hero__info-btn'>BUYURTMA BERISH</button>
+					<button onClick={() => setShowForm(true)} className='hero__info-btn'>
+						BUYURTMA BERISH
+					</button>
 					<Link to='portfolio' className='hero__info-btn'>
 						PORTFOLIO KO'RISH
 					</Link>
+					{showForm && <FormModal onClose={() => setShowForm(false)} />}
 				</div>
 			</div>
 		</div>

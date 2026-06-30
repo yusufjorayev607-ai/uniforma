@@ -12,21 +12,21 @@ function Pages() {
 	return (
 		<>
 			<Home />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Partners />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Services />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Portfolio />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<About />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Process />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Stats />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Contact />
-			<hr className='hr' />
+			<hr className='hr container' />
 			<Form />
 		</>
 	)
