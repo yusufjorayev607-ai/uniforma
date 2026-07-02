@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body[data-theme='dark'] {
 	background-color: #0b1220;
 	--card: #111827;
@@ -34,6 +37,7 @@ body[data-theme='light'] .hero button {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .header__nav-link {
 	text-decoration: none;
 	margin-right: 35px;
@@ -44,7 +48,12 @@ body[data-theme='light'] .hero button {
 .header__nav-link:last-child {
 	margin-right: 0;
 }
-
+.header__mode {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
 .title {
 	display: flex;
 	justify-content: center;

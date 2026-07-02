@@ -1,0 +1,293 @@
+{
+	"header": {
+		"about": "HAKKIMIZDA",
+		"services": "HİZMETLER",
+		"portfolio": "PORTFÖY",
+		"contact": "İLETİŞİM"
+	},
+	"hero": {
+		"title": "İşletmeniz için profesyonel iş kıyafetleri üretiyoruz",
+		"description": "Artel, AKFA, Lukoil, Murad Buildings, Royal ve birçok büyük şirketin güvenilir iş ortağı",
+		"orderBtn": "SİPARİŞ VER",
+		"portfolioBtn": "PORTFÖYÜ GÖR"
+	},
+	"partners": {
+		"title": "Bize Güvenen İş Ortaklarımız"
+	},
+	"services": {
+		"title": "Hizmetlerimiz",
+
+		"workwear": {
+			"title": "İş Kıyafetleri",
+			"description": "Fabrikalar, inşaat sahaları ve üretim tesisleri için tasarlanmıştır."
+		},
+
+		"corporate": {
+			"title": "Kurumsal Üniformalar",
+			"description": "Ofis çalışanları ve hizmet sektörü personeli için profesyonel üniformalar."
+		},
+
+		"custom": {
+			"title": "Özel Dikim",
+			"description": "Müşterinin tasarım ve taleplerine göre özel olarak üretilir."
+		},
+
+		"mass-production": {
+			"title": "Seri Üretim",
+			"description": "Büyük hacimli siparişler için yüksek kapasiteli üretim."
+		}
+	},
+	"portfolio": {
+		"title": "PORTFÖY",
+		"viewAllBtn": "TÜM ÇALIŞMALARIMIZI GÖR",
+		"workwear": {
+			"title": "İş Kıyafeti",
+			"description": "Fabrikalar ve üretim tesisleri için profesyonel iş kıyafeti.",
+			"material": "Pamuk ve polyester karışımı",
+			"color": "Lacivert",
+			"season": "Tüm Mevsimler"
+		},
+
+		"construction-uniform": {
+			"title": "İnşaat Kıyafeti",
+			"description": "İnşaat sahaları için dayanıklı iş kıyafeti.",
+			"material": "Yüksek yoğunluklu kumaş",
+			"color": "Koyu Turuncu",
+			"season": "Tüm Mevsimler"
+		},
+
+		"corporate-uniform": {
+			"title": "Kurumsal Üniforma",
+			"description": "Ofis ve hizmet sektörü çalışanları için profesyonel üniforma.",
+			"material": "Premium takım elbiselik kumaş",
+			"color": "Siyah",
+			"season": "Tüm Mevsimler"
+		},
+
+		"welder-uniform": {
+			"title": "Kaynakçı Üniforması",
+			"description": "Kaynak işleri için koruyucu üniforma.",
+			"material": "Isıya dayanıklı kumaş",
+			"color": "Gri",
+			"season": "Tüm Mevsimler"
+		},
+
+		"electrician-uniform": {
+			"title": "Elektrikçi Üniforması",
+			"description": "Elektrik montaj işleri için güvenli üniforma.",
+			"material": "Dielektrik kumaş",
+			"color": "Mavi",
+			"season": "Tüm Mevsimler"
+		},
+
+		"warehouse-uniform": {
+			"title": "Depo Üniforması",
+			"description": "Depo ve lojistik personeli için rahat üniforma.",
+			"material": "Polyester",
+			"color": "Gri",
+			"season": "Tüm Mevsimler"
+		},
+
+		"restaurant-uniform": {
+			"title": "Restoran Üniforması",
+			"description": "Aşçılar ve restoran personeli için profesyonel üniforma.",
+			"material": "Hafif pamuklu kumaş",
+			"color": "Beyaz",
+			"season": "Tüm Mevsimler"
+		},
+
+		"reception-uniform": {
+			"title": "Resepsiyon Üniforması",
+			"description": "Resepsiyon çalışanları için modern üniforma.",
+			"material": "Premium kumaş",
+			"color": "Siyah",
+			"season": "Tüm Mevsimler"
+		},
+
+		"winter-workwear": {
+			"title": "Kışlık İş Kıyafeti",
+			"description": "Soğuk hava koşulları için özel olarak tasarlanmış üniforma.",
+			"material": "Isı yalıtımlı kumaş",
+			"color": "Lacivert",
+			"season": "Kış"
+		},
+
+		"summer-workwear": {
+			"title": "Yazlık İş Kıyafeti",
+			"description": "Sıcak hava koşulları için hafif üniforma.",
+			"material": "Nefes alabilen kumaş",
+			"color": "Gri",
+			"season": "Yaz"
+		},
+
+		"signal-uniform": {
+			"title": "Reflektörlü Güvenlik Üniforması",
+			"description": "Yüksek görünürlük sağlayan güvenlik kıyafeti.",
+			"material": "Reflektörlü kumaş",
+			"color": "Sarı",
+			"season": "Tüm Mevsimler"
+		},
+
+		"engineer-uniform": {
+			"title": "Mühendis Üniforması",
+			"description": "Mühendisler ve teknik personel için profesyonel üniforma.",
+			"material": "Premium karışımlı kumaş",
+			"color": "Mavi",
+			"season": "Tüm Mevsimler"
+		},
+		"custom-order-1": {
+			"title": "Özel Sipariş 1",
+			"description": "Müşterinin taleplerine göre özel olarak üretilmiş üniforma.",
+			"material": "Müşteri seçimine göre kumaş",
+			"color": "Siyah",
+			"season": "Tüm Mevsimler"
+		},
+
+		"custom-order-2": {
+			"title": "Özel Sipariş 2",
+			"description": "Kurumsal siparişe göre dikilmiş üniforma.",
+			"material": "Premium kumaş",
+			"color": "Mavi",
+			"season": "Tüm Mevsimler"
+		},
+
+		"custom-order-3": {
+			"title": "Özel Sipariş 3",
+			"description": "Özgün tasarıma göre üretilmiş özel üniforma.",
+			"material": "Premium kumaş",
+			"color": "Gri",
+			"season": "Tüm Mevsimler"
+		},
+
+		"coverall": {
+			"title": "Tulum",
+			"description": "Üretim tesisleri için dayanıklı iş tulumu.",
+			"material": "Dayanıklı kumaş",
+			"color": "Mavi",
+			"season": "Tüm Mevsimler"
+		},
+
+		"oil-gas-uniform": {
+			"title": "Petrol ve Gaz Üniforması",
+			"description": "Petrol ve gaz sektöründe çalışanlar için koruyucu üniforma.",
+			"material": "Aleve dayanıklı kumaş",
+			"color": "Kırmızı",
+			"season": "Tüm Mevsimler"
+		},
+
+		"technical-uniform": {
+			"title": "Teknik Personel Üniforması",
+			"description": "Teknik bakım personeli için profesyonel üniforma.",
+			"material": "Polyester",
+			"color": "Gri",
+			"season": "Tüm Mevsimler"
+		},
+
+		"service-uniform": {
+			"title": "Servis Personeli Üniforması",
+			"description": "Servis merkezi çalışanları için profesyonel üniforma.",
+			"material": "Hafif kumaş",
+			"color": "Mavi",
+			"season": "Tüm Mevsimler"
+		},
+
+		"security-uniform": {
+			"title": "Güvenlik Görevlisi Üniforması",
+			"description": "Güvenlik personeli için profesyonel üniforma.",
+			"material": "Dayanıklı kumaş",
+			"color": "Siyah",
+			"season": "Tüm Mevsimler"
+		},
+
+		"warehouse-logistics": {
+			"title": "Depo ve Lojistik Üniforması",
+			"description": "Depo ve lojistik merkezi çalışanları için üniforma.",
+			"material": "Polyester",
+			"color": "Gri",
+			"season": "Tüm Mevsimler"
+		},
+
+		"manufacturing-uniform": {
+			"title": "Üretim Üniforması",
+			"description": "Büyük üretim tesisleri için profesyonel üniforma.",
+			"material": "Pamuk ve polyester karışımı",
+			"color": "Mavi",
+			"season": "Tüm Mevsimler"
+		},
+
+		"premium-uniform": {
+			"title": "Premium Üniforma",
+			"description": "Premium segment için yüksek kaliteli üniforma.",
+			"material": "Premium kumaş",
+			"color": "Siyah",
+			"season": "Tüm Mevsimler"
+		},
+
+		"branded-uniform": {
+			"title": "Markalı Üniforma",
+			"description": "Şirket logosu ile özel olarak üretilmiş üniforma.",
+			"material": "Premium kumaş",
+			"color": "Lacivert",
+			"season": "Tüm Mevsimler"
+		}
+	},
+	"portfolioPage": {
+		"title": "PORTFÖY",
+		"backBtn": "GERİ"
+	},
+	"about": {
+		"label": "Hakkımızda",
+		"title": "Deneyim ve kaliteye dayalı üretim",
+		"description": "Şirketimiz kurumsal üniformalar, iş kıyafetleri ve özel sipariş üretiminde uzmanlaşmıştır.",
+		"features": {
+			"quality": "Yüksek kaliteli kumaşlar",
+			"specialists": "Deneyimli uzmanlar",
+			"delivery": "Zamanında teslimat",
+			"approach": "Kişiye özel yaklaşım"
+		},
+		"button": "DAHA FAZLA BİLGİ"
+	},
+	"process": {
+		"title": "Sipariş Süreci",
+
+		"step1": "Sipariş alınır",
+		"step2": "Model seçilir veya numuneye göre hazırlanır",
+		"step3": "Kumaş seçilir ve satın alınır",
+		"step4": "Uzman tarafından numune dikilir",
+		"step5": "Numune müşteriye sunulur",
+		"step6": "Ölçüler alınır",
+		"step7": "Malzemeler üretime gönderilir",
+		"step8": "Hazır ürün teslim edilir"
+	},
+	"stats": {
+		"title": "Başarılarımız",
+		"projects": "Tamamlanan Projeler",
+		"clothes": "Üretilen Kıyafetler",
+		"partners": "İş Ortaklarımız",
+		"satisfaction": "Müşteri Memnuniyeti"
+	},
+	"contact": {
+		"title": "İLETİŞİM",
+
+		"phone": {
+			"title": "Telefon",
+			"info": "Pazartesi–Cumartesi\n09:00–19:00"
+		},
+
+		"telegram": {
+			"title": "Telegram",
+			"info": "Hızlı yanıt"
+		},
+
+		"email": {
+			"title": "E-posta",
+			"info": "24 saat içinde yanıt"
+		},
+
+		"address": {
+			"title": "Adres",
+			"city": "Taşkent",
+			"district": "Şeyhantahur İlçesi"
+		}
+	}
+}

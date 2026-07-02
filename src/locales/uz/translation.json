@@ -1,0 +1,293 @@
+{
+	"header": {
+		"about": "BIZ HAQIMIZDA",
+		"services": "XIZMATLAR",
+		"portfolio": "PORTFOLIO",
+		"contact": "KONTAKT"
+	},
+	"hero": {
+		"title": "Korxonangiz uchun professional maxsus kiyimlar ishlab chiqaramiz",
+		"description": "Artel, AKFA, Lukoil, Murad Buildings, Royal va boshqa yirik kompaniyalarning ishonchli hamkori",
+		"orderBtn": "BUYURTMA BERISH",
+		"portfolioBtn": "PORTFOLIO KO'RISH"
+	},
+	"partners": {
+		"title": "Bizga ishonch bildirgan hamkorlarimiz"
+	},
+	"services": {
+		"title": "Xizmatlarimiz",
+
+		"workwear": {
+			"title": "Ishchi formalar",
+			"description": "Zavod, qurilish va ishlab chiqarish korxonalari uchun."
+		},
+
+		"corporate": {
+			"title": "Korporativ kiyimlar",
+			"description": "Ofis va xizmat ko'rsatish xodimlari uchun."
+		},
+
+		"custom": {
+			"title": "Maxsus buyurtmalar",
+			"description": "Mijoz namunasi asosida tikish."
+		},
+
+		"mass-production": {
+			"title": "Ommaviy ishlab chiqarish",
+			"description": "Katta hajmdagi buyurtmalar uchun."
+		}
+	},
+	"portfolio": {
+		"title": "PORTFOLIO",
+		"viewAllBtn": "BARCHA ISHLARIMIZNI KO'RISH",
+		"workwear": {
+			"title": "Ishchi forma",
+			"description": "Zavod va ishlab chiqarish korxonalari uchun maxsus tikilgan ishchi forma.",
+			"material": "Paxta va polyester aralashmasi",
+			"color": "To'q ko'k",
+			"season": "All Seasons"
+		},
+
+		"construction-uniform": {
+			"title": "Qurilish formasi",
+			"description": "Qurilish maydonlarida foydalanish uchun mustahkam forma.",
+			"material": "Yuqori zichlikdagi mato",
+			"color": "To'q sariq",
+			"season": "All Seasons"
+		},
+
+		"corporate-uniform": {
+			"title": "Korporativ forma",
+			"description": "Ofis va xizmat ko'rsatish xodimlari uchun forma.",
+			"material": "Premium kostyumbop mato",
+			"color": "Qora",
+			"season": "All Seasons"
+		},
+
+		"welder-uniform": {
+			"title": "Payvandchi formasi",
+			"description": "Payvandlash ishlari uchun himoyalangan forma.",
+			"material": "Issiqlikka chidamli mato",
+			"color": "Kulrang",
+			"season": "All Seasons"
+		},
+
+		"electrician-uniform": {
+			"title": "Elektrik formasi",
+			"description": "Elektr montaj ishlari uchun xavfsiz forma.",
+			"material": "Dielektrik mato",
+			"color": "Ko'k",
+			"season": "All Seasons"
+		},
+
+		"warehouse-uniform": {
+			"title": "Omborxona formasi",
+			"description": "Logistika va ombor xodimlari uchun.",
+			"material": "Polyester",
+			"color": "Kulrang",
+			"season": "All Seasons"
+		},
+
+		"restaurant-uniform": {
+			"title": "Restoran formasi",
+			"description": "Oshpaz va xizmat ko'rsatish xodimlari uchun.",
+			"material": "Yengil paxta",
+			"color": "Oq",
+			"season": "All Seasons"
+		},
+
+		"reception-uniform": {
+			"title": "Reception formasi",
+			"description": "Qabulxona xodimlari uchun zamonaviy forma.",
+			"material": "Premium mato",
+			"color": "Qora",
+			"season": "All Seasons"
+		},
+
+		"winter-workwear": {
+			"title": "Qishki ishchi forma",
+			"description": "Sovuq ob-havo uchun maxsus forma.",
+			"material": "Issiqlik saqlovchi mato",
+			"color": "To'q ko'k",
+			"season": "All Seasons"
+		},
+
+		"summer-workwear": {
+			"title": "Yozgi ishchi forma",
+			"description": "Issiq ob-havo uchun yengil forma.",
+			"material": "Nafas oluvchi mato",
+			"color": "Kulrang",
+			"season": "All Seasons"
+		},
+
+		"signal-uniform": {
+			"title": "Signal formasi",
+			"description": "Yuqori ko'rinishga ega maxsus kiyim.",
+			"material": "Reflektorli mato",
+			"color": "Sariq",
+			"season": "All Seasons"
+		},
+
+		"engineer-uniform": {
+			"title": "Muhandis formasi",
+			"description": "Muhandis va texnik xodimlar uchun.",
+			"material": "Premium aralash mato",
+			"color": "Ko'k",
+			"season": "All Seasons"
+		},
+		"custom-order-1": {
+			"title": "Maxsus buyurtma 1",
+			"description": "Mijoz talabiga ko'ra ishlab chiqarilgan forma.",
+			"material": "Individual tanlov",
+			"color": "Qora",
+			"season": "All Seasons"
+		},
+
+		"custom-order-2": {
+			"title": "Maxsus buyurtma 2",
+			"description": "Korporativ buyurtma asosida tikilgan.",
+			"material": "Premium mato",
+			"color": "Ko'k",
+			"season": "All Seasons"
+		},
+
+		"custom-order-3": {
+			"title": "Maxsus buyurtma 3",
+			"description": "Eksklyuziv dizayn asosida tikilgan.",
+			"material": "Premium mato",
+			"color": "Kulrang",
+			"season": "All Seasons"
+		},
+
+		"coverall": {
+			"title": "Kombinezon",
+			"description": "Ishlab chiqarish korxonalari uchun kombinezon.",
+			"material": "Mustahkam mato",
+			"color": "Ko'k",
+			"season": "All Seasons"
+		},
+
+		"oil-gas-uniform": {
+			"title": "Neft-gaz formasi",
+			"description": "Neft va gaz sanoati uchun maxsus forma.",
+			"material": "Yong'inga chidamli mato",
+			"color": "Qizil",
+			"season": "All Seasons"
+		},
+
+		"technical-uniform": {
+			"title": "Texnik xodim formasi",
+			"description": "Texnik xizmat ko'rsatish mutaxassislari uchun.",
+			"material": "Polyester",
+			"color": "Kulrang",
+			"season": "All Seasons"
+		},
+
+		"service-uniform": {
+			"title": "Servis xodimi formasi",
+			"description": "Servis markazlari uchun professional forma.",
+			"material": "Yengil mato",
+			"color": "Ko'k",
+			"season": "All Seasons"
+		},
+
+		"security-uniform": {
+			"title": "Xavfsizlik xodimi formasi",
+			"description": "Qo'riqlash xizmatlari uchun maxsus forma.",
+			"material": "Mustahkam mato",
+			"color": "Qora",
+			"season": "All Seasons"
+		},
+
+		"warehouse-logistics": {
+			"title": "Sklad formasi",
+			"description": "Sklad va logistika markazlari uchun forma.",
+			"material": "Polyester",
+			"color": "Kulrang",
+			"season": "All Seasons"
+		},
+
+		"manufacturing-uniform": {
+			"title": "Ishlab chiqarish formasi",
+			"description": "Katta ishlab chiqarish korxonalari uchun forma.",
+			"material": "Paxta va polyester",
+			"color": "Ko'k",
+			"season": "All Seasons"
+		},
+
+		"premium-uniform": {
+			"title": "Premium forma",
+			"description": "Premium segment uchun maxsus forma.",
+			"material": "Premium mato",
+			"color": "Qora",
+			"season": "All Seasons"
+		},
+
+		"branded-uniform": {
+			"title": "Brendlangan forma",
+			"description": "Kompaniya logotipi bilan ishlab chiqarilgan forma.",
+			"material": "Premium mato",
+			"color": "To'q ko'k",
+			"season": "All Seasons"
+		}
+	},
+	"portfolioPage": {
+		"title": "PORTFOLIO",
+		"backBtn": "ORTGA"
+	},
+	"about": {
+		"label": "Biz haqimizda",
+		"title": "Tajriba va sifatga asoslangan ishlab chiqarish",
+		"description": "Kompaniyamiz korporativ ishchi formalar, maxsus kiyimlar va individual buyurtmalar ishlab chiqarishga ixtisoslashgan.",
+		"features": {
+			"quality": "Sifatli matolar",
+			"specialists": "Tajribali mutaxassislar",
+			"delivery": "O'z vaqtida yetkazib berish",
+			"approach": "Individual yondashuv"
+		},
+		"button": "KO'PROQ MA'LUMOT"
+	},
+	"process": {
+		"title": "Buyurtma jarayoni",
+
+		"step1": "Buyurtma qabul qilinadi",
+		"step2": "Model tanlanadi yoki namunadan olinadi",
+		"step3": "Mato tanlanadi va xarid qilinadi",
+		"step4": "Mutaxassis tomonidan namuna tikiladi",
+		"step5": "Namuna mijozga taqdim etiladi",
+		"step6": "Razmerlar olinadi",
+		"step7": "Materiallar ishlab chiqarishga topshiriladi",
+		"step8": "Tayyor mahsulot topshiriladi"
+	},
+	"stats": {
+		"title": "Bizning natijalarimiz",
+		"projects": "Tugallangan loyihalar",
+		"clothes": "Tikilgan kiyimlar",
+		"partners": "Hamkor korxonalar",
+		"satisfaction": "Mijozlar mamnunligi"
+	},
+	"contact": {
+		"title": "ALOQA",
+
+		"phone": {
+			"title": "Telefon",
+			"info": "Dushanba–Shanba\n09:00–19:00"
+		},
+
+		"telegram": {
+			"title": "Telegram",
+			"info": "Tezkor javob"
+		},
+
+		"email": {
+			"title": "Email",
+			"info": "24 soat ichida javob"
+		},
+
+		"address": {
+			"title": "Manzil",
+			"city": "Toshkent sh.",
+			"district": "Shayxontohur tumani"
+		}
+	}
+}

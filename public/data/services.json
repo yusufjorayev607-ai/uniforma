@@ -1,31 +1,26 @@
 {
-	"title": "Xizmatlarimiz",
 	"services": [
 		{
 			"id": 1,
-			"title": "Ishchi formalar",
-			"description": "Zavod, qurilish va ishlab chiqarish korxonalari uchun.",
+			"slug": "workwear",
 			"image": "/image/workwear.jpg.png",
 			"icon": "helmet"
 		},
 		{
 			"id": 2,
-			"title": "Korporativ kiyimlar",
-			"description": "Ofis va xizmat ko'rsatish xodimlari uchun.",
+			"slug": "corporate",
 			"image": "/image/workwear.jpg.png",
 			"icon": "briefcase"
 		},
 		{
 			"id": 3,
-			"title": "Maxsus buyurtmalar",
-			"description": "Mijoz namunasi asosida tikish.",
+			"slug": "custom",
 			"image": "/image/workwear.jpg.png",
 			"icon": "scissors"
 		},
 		{
 			"id": 4,
-			"title": "Ommaviy ishlab chiqarish",
-			"description": "Katta hajmdagi buyurtmalar uchun.",
+			"slug": "mass-production",
 			"image": "/image/workwear.jpg.png",
 			"icon": "factory"
 		}

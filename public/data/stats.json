@@ -1,24 +1,23 @@
 {
-	"title": "Bizning natijalarimiz",
 	"stats": [
 		{
 			"value": "100+",
-			"label": "Tugallangan loyihalar",
+
 			"icon": "/icons/briefcase.svg"
 		},
 		{
 			"value": "5000+",
-			"label": "Tikilgan kiyimlar",
+
 			"icon": "/icons/shirt.svg"
 		},
 		{
 			"value": "20+",
-			"label": "Hamkor korxonalar",
+
 			"icon": "/icons/users.svg"
 		},
 		{
 			"value": "98%",
-			"label": "Mijozlar mamnunligi",
+
 			"icon": "/icons/star.svg"
 		}
 	]

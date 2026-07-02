@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import MainLayout from './layout/MainLayout'
-import AdminLayout from './layout/AdminLayout'
 import AdminForm1 from './admin/pages/AdminForm1'
 import AdminForm2 from './admin/pages/AdminForm2'
+import AdminLayout from './layout/AdminLayout'
+import MainLayout from './layout/MainLayout'
 import Pages from './pages/Pages'
 import PortfolioPage from './pages/portfolio/PortfolioPage'
 function App() {
@@ -17,7 +17,7 @@ function App() {
 					element: <Pages />,
 				},
 				{
-					path: 'portfolio',
+					path: 'portfoliopage',
 					element: <PortfolioPage />,
 				},
 			],

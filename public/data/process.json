@@ -1,44 +1,35 @@
 {
-	"title": "Buyurtma jarayoni",
 	"steps": [
 		{
 			"step": 1,
-			"title": "Buyurtma qabul qilinadi",
 			"icon": "/icons/clipboard-list (1).svg"
 		},
 		{
 			"step": 2,
-			"title": "Model tanlanadi yoki namunadan olinadi",
 			"icon": "/icons/shirt.svg "
 		},
 		{
 			"step": 3,
-			"title": "Mato tanlanadi va xarid qilinadi",
 			"icon": "/icons/swatch-book.svg "
 		},
 		{
 			"step": 4,
-			"title": "Mutaxassis tomonidan namuna tikiladi",
 			"icon": "/icons/needle-thread.svg "
 		},
 		{
 			"step": 5,
-			"title": "Namuna mijozga taqdim etiladi",
 			"icon": "/icons/file-check.svg "
 		},
 		{
 			"step": 6,
-			"title": "Razmerlar olinadi",
 			"icon": "/icons/ruler-dimension-line.svg"
 		},
 		{
 			"step": 7,
-			"title": "Materiallar ishlab chiqarishga topshiriladi",
 			"icon": "/icons/spool.svg"
 		},
 		{
 			"step": 8,
-			"title": "Tayyor mahsulot topshiriladi",
 			"icon": "/icons/truck.svg"
 		}
 	]

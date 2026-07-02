@@ -1,11 +1,14 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { useFetch } from '../../hooks/useFetch'
 import PortfolioModal from './PortfolioModal'
 import './portfoliopage.css'
+
 function PortfolioPage() {
 	const { data, isPending, error } = useFetch('/data/portfolio.json')
 	const [selectedItem, setSelectedItem] = useState(null)
+	const { t } = useTranslation()
 	{
 		isPending && <div>Loader ...</div>
 	}
@@ -24,7 +27,12 @@ function PortfolioPage() {
 
 	return (
 		<div className='portfolio__page-test container'>
-			<h2 className='title'>PORTFOLIO</h2>
+			<div className='portfolio__test'>
+				<h2 className='title'>{t('portfolioPage.title')}</h2>
+				<Link to='/#portfolio' className='portfolio__page-headr-btn'>
+					{t('portfolioPage.backBtn')}
+				</Link>
+			</div>
 
 			<div className='portfolio__page'>
 				{data &&
@@ -39,8 +47,8 @@ function PortfolioPage() {
 					))}
 			</div>
 
-			<Link to='/' className='portfolio__page-btn'>
-				ORTGA
+			<Link to='/#portfolio' className='portfolio__page-btn'>
+				{t('portfolioPage.backBtn')}
 			</Link>
 		</div>
 	)

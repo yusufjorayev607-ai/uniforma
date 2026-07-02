@@ -1,0 +1,293 @@
+{
+	"header": {
+		"about": "ABOUT",
+		"services": "SERVICES",
+		"portfolio": "PORTFOLIO",
+		"contact": "CONTACT"
+	},
+	"hero": {
+		"title": "We manufacture professional workwear for your company",
+		"description": "A trusted partner of Artel, AKFA, Lukoil, Murad Buildings, Royal, and many other leading companies",
+		"orderBtn": "PLACE AN ORDER",
+		"portfolioBtn": "VIEW PORTFOLIO"
+	},
+	"partners": {
+		"title": "Our Trusted Partners"
+	},
+	"services": {
+		"title": "Our Services",
+
+		"workwear": {
+			"title": "Workwear",
+			"description": "Designed for factories, construction sites, and manufacturing companies."
+		},
+
+		"corporate": {
+			"title": "Corporate Uniforms",
+			"description": "Professional uniforms for office staff and service personnel."
+		},
+
+		"custom": {
+			"title": "Custom Tailoring",
+			"description": "Tailored according to the customer's design and requirements."
+		},
+
+		"mass-production": {
+			"title": "Mass Production",
+			"description": "High-volume production for large-scale orders."
+		}
+	},
+	"portfolio": {
+		"title": "PORTFOLIO",
+		"viewAllBtn": "VIEW ALL OUR PROJECTS",
+		"workwear": {
+			"title": "Workwear",
+			"description": "Professional workwear designed for factories and manufacturing facilities.",
+			"material": "Cotton and polyester blend",
+			"color": "Dark Blue",
+			"season": "All Seasons"
+		},
+
+		"construction-uniform": {
+			"title": "Construction Uniform",
+			"description": "Durable uniform designed for construction sites.",
+			"material": "High-density fabric",
+			"color": "Dark Orange",
+			"season": "All Seasons"
+		},
+
+		"corporate-uniform": {
+			"title": "Corporate Uniform",
+			"description": "Professional uniform for office and service staff.",
+			"material": "Premium suit fabric",
+			"color": "Black",
+			"season": "All Seasons"
+		},
+
+		"welder-uniform": {
+			"title": "Welder Uniform",
+			"description": "Protective uniform specially designed for welding work.",
+			"material": "Heat-resistant fabric",
+			"color": "Gray",
+			"season": "All Seasons"
+		},
+
+		"electrician-uniform": {
+			"title": "Electrician Uniform",
+			"description": "Safe uniform for electrical installation and maintenance work.",
+			"material": "Dielectric fabric",
+			"color": "Blue",
+			"season": "All Seasons"
+		},
+
+		"warehouse-uniform": {
+			"title": "Warehouse Uniform",
+			"description": "Comfortable uniform for warehouse and logistics staff.",
+			"material": "Polyester",
+			"color": "Gray",
+			"season": "All Seasons"
+		},
+
+		"restaurant-uniform": {
+			"title": "Restaurant Uniform",
+			"description": "Professional uniform for chefs and restaurant staff.",
+			"material": "Lightweight cotton",
+			"color": "White",
+			"season": "All Seasons"
+		},
+
+		"reception-uniform": {
+			"title": "Reception Uniform",
+			"description": "Modern uniform for reception and front desk employees.",
+			"material": "Premium fabric",
+			"color": "Black",
+			"season": "All Seasons"
+		},
+
+		"winter-workwear": {
+			"title": "Winter Workwear",
+			"description": "Specially designed uniform for cold weather conditions.",
+			"material": "Thermal insulated fabric",
+			"color": "Dark Blue",
+			"season": "Winter"
+		},
+
+		"summer-workwear": {
+			"title": "Summer Workwear",
+			"description": "Lightweight uniform for hot weather conditions.",
+			"material": "Breathable fabric",
+			"color": "Gray",
+			"season": "Summer"
+		},
+
+		"signal-uniform": {
+			"title": "High Visibility Uniform",
+			"description": "Reflective uniform designed for maximum visibility and safety.",
+			"material": "Reflective fabric",
+			"color": "Yellow",
+			"season": "All Seasons"
+		},
+
+		"engineer-uniform": {
+			"title": "Engineer Uniform",
+			"description": "Professional uniform for engineers and technical specialists.",
+			"material": "Premium blended fabric",
+			"color": "Blue",
+			"season": "All Seasons"
+		},
+		"custom-order-1": {
+			"title": "Custom Order 1",
+			"description": "Custom-made uniform produced according to the client's requirements.",
+			"material": "Custom selected material",
+			"color": "Black",
+			"season": "All Seasons"
+		},
+
+		"custom-order-2": {
+			"title": "Custom Order 2",
+			"description": "Uniform tailored for corporate orders.",
+			"material": "Premium fabric",
+			"color": "Blue",
+			"season": "All Seasons"
+		},
+
+		"custom-order-3": {
+			"title": "Custom Order 3",
+			"description": "Exclusive uniform produced based on a unique design.",
+			"material": "Premium fabric",
+			"color": "Gray",
+			"season": "All Seasons"
+		},
+
+		"coverall": {
+			"title": "Coverall",
+			"description": "Durable coverall designed for manufacturing facilities.",
+			"material": "Heavy-duty fabric",
+			"color": "Blue",
+			"season": "All Seasons"
+		},
+
+		"oil-gas-uniform": {
+			"title": "Oil & Gas Uniform",
+			"description": "Protective uniform for the oil and gas industry.",
+			"material": "Flame-resistant fabric",
+			"color": "Red",
+			"season": "All Seasons"
+		},
+
+		"technical-uniform": {
+			"title": "Technical Staff Uniform",
+			"description": "Professional uniform for technical maintenance personnel.",
+			"material": "Polyester",
+			"color": "Gray",
+			"season": "All Seasons"
+		},
+
+		"service-uniform": {
+			"title": "Service Staff Uniform",
+			"description": "Professional uniform for service center employees.",
+			"material": "Lightweight fabric",
+			"color": "Blue",
+			"season": "All Seasons"
+		},
+
+		"security-uniform": {
+			"title": "Security Guard Uniform",
+			"description": "Professional uniform for security personnel.",
+			"material": "Heavy-duty fabric",
+			"color": "Black",
+			"season": "All Seasons"
+		},
+
+		"warehouse-logistics": {
+			"title": "Warehouse & Logistics Uniform",
+			"description": "Uniform designed for warehouse and logistics staff.",
+			"material": "Polyester",
+			"color": "Gray",
+			"season": "All Seasons"
+		},
+
+		"manufacturing-uniform": {
+			"title": "Manufacturing Uniform",
+			"description": "Professional uniform for large manufacturing companies.",
+			"material": "Cotton and polyester blend",
+			"color": "Blue",
+			"season": "All Seasons"
+		},
+
+		"premium-uniform": {
+			"title": "Premium Uniform",
+			"description": "High-quality uniform designed for the premium segment.",
+			"material": "Premium fabric",
+			"color": "Black",
+			"season": "All Seasons"
+		},
+
+		"branded-uniform": {
+			"title": "Branded Uniform",
+			"description": "Custom uniform manufactured with the company's logo.",
+			"material": "Premium fabric",
+			"color": "Dark Blue",
+			"season": "All Seasons"
+		}
+	},
+	"portfolioPage": {
+		"title": "PORTFOLIO",
+		"backBtn": "BACK"
+	},
+	"about": {
+		"label": "About Us",
+		"title": "Manufacturing Built on Experience and Quality",
+		"description": "Our company specializes in producing corporate uniforms, workwear, and custom-made garments.",
+		"features": {
+			"quality": "High-quality fabrics",
+			"specialists": "Experienced professionals",
+			"delivery": "On-time delivery",
+			"approach": "Personalized approach"
+		},
+		"button": "LEARN MORE"
+	},
+	"process": {
+		"title": "Order Process",
+
+		"step1": "Order is received",
+		"step2": "A model is selected or based on a sample",
+		"step3": "Fabric is selected and purchased",
+		"step4": "A sample is produced by our specialist",
+		"step5": "The sample is presented to the customer",
+		"step6": "Measurements are taken",
+		"step7": "Materials are sent to production",
+		"step8": "The finished products are delivered"
+	},
+	"stats": {
+		"title": "Our Achievements",
+		"projects": "Completed Projects",
+		"clothes": "Garments Produced",
+		"partners": "Partner Companies",
+		"satisfaction": "Customer Satisfaction"
+	},
+	"contact": {
+		"title": "CONTACT",
+
+		"phone": {
+			"title": "Phone",
+			"info": "Monday–Saturday\n09:00–19:00"
+		},
+
+		"telegram": {
+			"title": "Telegram",
+			"info": "Quick response"
+		},
+
+		"email": {
+			"title": "Email",
+			"info": "Reply within 24 hours"
+		},
+
+		"address": {
+			"title": "Address",
+			"city": "Tashkent",
+			"district": "Shaykhontohur District"
+		}
+	}
+}

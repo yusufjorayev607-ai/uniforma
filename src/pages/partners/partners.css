@@ -16,10 +16,19 @@
 }
 
 @media (max-width: 768px) {
-	.partners__img {
-		width: 50px;
+	.partners {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 15px;
+	}
+
+	.partners__item {
+		flex: 0 0 calc(33.333% - 15px);
+		display: flex;
+		justify-content: center;
 	}
 	.test {
-		height: 100px;
+		height: 100%;
 	}
 }

@@ -1,26 +1,23 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { FormModal } from '../form/Form'
 import './home.css'
 
 function Home() {
 	const [showForm, setShowForm] = useState(false)
+	const { t } = useTranslation()
 	return (
 		<div className='hero container'>
 			<div className='hero__info'>
-				<h1 className='hero__info-title'>
-					Korxonangiz uchun professional maxsus kiyimlar ishlab chiqaramiz
-				</h1>
-				<p className='hero__info-info'>
-					Artel, AKFA, Lukoil, Murad Buildings, Royal va boshqa yirik
-					kompaniyalar ishonchli hamkori
-				</p>
+				<h1 className='hero__info-title'>{t('hero.title')}</h1>
+				<p className='hero__info-info'>{t('hero.description')}</p>
 				<div className='btn__test'>
 					<button onClick={() => setShowForm(true)} className='hero__info-btn'>
-						BUYURTMA BERISH
+						{t('hero.orderBtn')}
 					</button>
-					<Link to='portfolio' className='hero__info-btn'>
-						PORTFOLIO KO'RISH
+					<Link to='portfoliopage' className='hero__info-btn'>
+						{t('hero.portfolioBtn')}
 					</Link>
 					{showForm && <FormModal onClose={() => setShowForm(false)} />}
 				</div>

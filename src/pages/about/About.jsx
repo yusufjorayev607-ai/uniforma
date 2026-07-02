@@ -1,36 +1,33 @@
-import './about.css'
+import { useTranslation } from 'react-i18next'
 import { FaCheck } from 'react-icons/fa'
+import './about.css'
 function About() {
+	const { t } = useTranslation()
 	return (
-		<div className='about container'>
+		<div className='about container' id='about'>
 			<div className='about__info'>
-				<span className='about__label'>Biz haqimizda</span>
-				<h2 className='about__info-title'>
-					Tajriba va sifatga asoslangan ishlab chiqarish
-				</h2>
-				<p className='about__info-description'>
-					Kompaniyamiz korporativ ishchi formalar, maxsus kiyimlar va individual
-					buyurtmalarni ishlab chiqarishka ixtisoslashgan
-				</p>
+				<span className='about__label'>{t('about.label')}</span>
+				<h2 className='about__info-title'>{t('about.title')}</h2>
+				<p className='about__info-description'>{t('about.description')}</p>
 				<ul className='about__info-features'>
 					<li className='about__info-item'>
 						<FaCheck className='about__info-icon' />
-						Sifatli matolar
+						{t('about.features.quality')}
 					</li>
 					<li className='about__info-item'>
 						<FaCheck className='about__info-icon' />
-						Tajribali mutaxassislar
+						{t('about.features.specialists')}
 					</li>
 					<li className='about__info-item'>
 						<FaCheck className='about__info-icon' />
-						O'z vaqtida yetkazib berish
+						{t('about.features.delivery')}
 					</li>
 					<li className='about__info-item'>
 						<FaCheck className='about__info-icon' />
-						Individual yondashuv
+						{t('about.features.approach')}
 					</li>
 				</ul>
-				<button className='about__info-btn'>KO'PROQ MALUMOT</button>
+				<button className='about__info-btn'>{t('about.button')}</button>
 			</div>
 			<div className='about__image'>
 				<img src='/image/partfolio.png' alt='' className='about__image-img' />

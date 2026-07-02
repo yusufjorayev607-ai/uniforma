@@ -1,0 +1,293 @@
+{
+	"header": {
+		"about": "关于我们",
+		"services": "服务",
+		"portfolio": "作品集",
+		"contact": "联系我们"
+	},
+	"hero": {
+		"title": "我们为您的企业生产专业工作服",
+		"description": "Artel、AKFA、Lukoil、Murad Buildings、Royal 等众多知名企业值得信赖的合作伙伴",
+		"orderBtn": "立即下单",
+		"portfolioBtn": "查看案例"
+	},
+	"partners": {
+		"title": "值得信赖的合作伙伴"
+	},
+	"services": {
+		"title": "我们的服务",
+
+		"workwear": {
+			"title": "工作服",
+			"description": "适用于工厂、建筑工地和制造企业。"
+		},
+
+		"corporate": {
+			"title": "企业制服",
+			"description": "适用于办公室员工和服务行业人员。"
+		},
+
+		"custom": {
+			"title": "定制服装",
+			"description": "根据客户的设计和要求量身定制。"
+		},
+
+		"mass-production": {
+			"title": "批量生产",
+			"description": "适用于大批量订单。"
+		}
+	},
+	"portfolio": {
+		"title": "作品展示",
+		"viewAllBtn": "查看我们的所有作品",
+		"workwear": {
+			"title": "工作服",
+			"description": "适用于工厂和生产企业的专业工作服。",
+			"material": "棉与聚酯纤维混纺",
+			"color": "深蓝色",
+			"season": "四季皆宜"
+		},
+
+		"construction-uniform": {
+			"title": "建筑工作服",
+			"description": "适用于建筑工地的耐用工作服。",
+			"material": "高密度面料",
+			"color": "深橙色",
+			"season": "四季皆宜"
+		},
+
+		"corporate-uniform": {
+			"title": "企业制服",
+			"description": "适用于办公室及服务行业员工的专业制服。",
+			"material": "高品质西装面料",
+			"color": "黑色",
+			"season": "四季皆宜"
+		},
+
+		"welder-uniform": {
+			"title": "焊工工作服",
+			"description": "专为焊接工作设计的防护服。",
+			"material": "耐高温面料",
+			"color": "灰色",
+			"season": "四季皆宜"
+		},
+
+		"electrician-uniform": {
+			"title": "电工工作服",
+			"description": "适用于电气安装工作的安全工作服。",
+			"material": "绝缘面料",
+			"color": "蓝色",
+			"season": "四季皆宜"
+		},
+
+		"warehouse-uniform": {
+			"title": "仓库工作服",
+			"description": "适用于仓库和物流员工。",
+			"material": "聚酯纤维",
+			"color": "灰色",
+			"season": "四季皆宜"
+		},
+
+		"restaurant-uniform": {
+			"title": "餐厅制服",
+			"description": "适用于厨师和餐厅工作人员。",
+			"material": "轻质棉料",
+			"color": "白色",
+			"season": "四季皆宜"
+		},
+
+		"reception-uniform": {
+			"title": "前台制服",
+			"description": "适用于前台接待人员的现代制服。",
+			"material": "高品质面料",
+			"color": "黑色",
+			"season": "四季皆宜"
+		},
+
+		"winter-workwear": {
+			"title": "冬季工作服",
+			"description": "专为寒冷天气设计的工作服。",
+			"material": "保暖面料",
+			"color": "深蓝色",
+			"season": "冬季"
+		},
+
+		"summer-workwear": {
+			"title": "夏季工作服",
+			"description": "适用于炎热天气的轻便工作服。",
+			"material": "透气面料",
+			"color": "灰色",
+			"season": "夏季"
+		},
+
+		"signal-uniform": {
+			"title": "高可视安全服",
+			"description": "带反光设计的高可视安全工作服。",
+			"material": "反光面料",
+			"color": "黄色",
+			"season": "四季皆宜"
+		},
+
+		"engineer-uniform": {
+			"title": "工程师制服",
+			"description": "适用于工程师及技术人员的专业制服。",
+			"material": "高品质混纺面料",
+			"color": "蓝色",
+			"season": "四季皆宜"
+		},
+		"custom-order-1": {
+			"title": "定制订单 1",
+			"description": "根据客户要求专门制作的工作服。",
+			"material": "客户自选面料",
+			"color": "黑色",
+			"season": "四季皆宜"
+		},
+
+		"custom-order-2": {
+			"title": "定制订单 2",
+			"description": "根据企业订单定制的工作服。",
+			"material": "高品质面料",
+			"color": "蓝色",
+			"season": "四季皆宜"
+		},
+
+		"custom-order-3": {
+			"title": "定制订单 3",
+			"description": "根据专属设计制作的定制工作服。",
+			"material": "高品质面料",
+			"color": "灰色",
+			"season": "四季皆宜"
+		},
+
+		"coverall": {
+			"title": "连体工作服",
+			"description": "适用于生产企业的耐用连体工作服。",
+			"material": "耐磨面料",
+			"color": "蓝色",
+			"season": "四季皆宜"
+		},
+
+		"oil-gas-uniform": {
+			"title": "石油天然气行业工作服",
+			"description": "专为石油和天然气行业工作人员设计的防护服。",
+			"material": "阻燃面料",
+			"color": "红色",
+			"season": "四季皆宜"
+		},
+
+		"technical-uniform": {
+			"title": "技术人员工作服",
+			"description": "适用于技术维护人员的专业工作服。",
+			"material": "聚酯纤维",
+			"color": "灰色",
+			"season": "四季皆宜"
+		},
+
+		"service-uniform": {
+			"title": "服务人员制服",
+			"description": "适用于服务中心员工的专业制服。",
+			"material": "轻质面料",
+			"color": "蓝色",
+			"season": "四季皆宜"
+		},
+
+		"security-uniform": {
+			"title": "安保人员制服",
+			"description": "适用于安保人员的专业制服。",
+			"material": "耐用面料",
+			"color": "黑色",
+			"season": "四季皆宜"
+		},
+
+		"warehouse-logistics": {
+			"title": "仓储物流工作服",
+			"description": "适用于仓库和物流中心员工。",
+			"material": "聚酯纤维",
+			"color": "灰色",
+			"season": "四季皆宜"
+		},
+
+		"manufacturing-uniform": {
+			"title": "生产车间工作服",
+			"description": "适用于大型生产企业的专业工作服。",
+			"material": "棉与聚酯纤维混纺",
+			"color": "蓝色",
+			"season": "四季皆宜"
+		},
+
+		"premium-uniform": {
+			"title": "高端工作服",
+			"description": "专为高端客户设计的优质工作服。",
+			"material": "高品质面料",
+			"color": "黑色",
+			"season": "四季皆宜"
+		},
+
+		"branded-uniform": {
+			"title": "品牌定制工作服",
+			"description": "印有公司标志的定制工作服。",
+			"material": "高品质面料",
+			"color": "深蓝色",
+			"season": "四季皆宜"
+		}
+	},
+	"portfolioPage": {
+		"title": "作品展示",
+		"backBtn": "返回"
+	},
+	"about": {
+		"label": "关于我们",
+		"title": "以经验和品质为基础的生产",
+		"description": "我们专注于企业制服、工作服及定制工作服的生产。",
+		"features": {
+			"quality": "优质面料",
+			"specialists": "经验丰富的专业团队",
+			"delivery": "准时交付",
+			"approach": "个性化服务"
+		},
+		"button": "了解更多"
+	},
+	"process": {
+		"title": "订单流程",
+
+		"step1": "接收订单",
+		"step2": "选择款式或按照样品制作",
+		"step3": "选择并采购面料",
+		"step4": "由专业人员制作样品",
+		"step5": "向客户展示样品",
+		"step6": "测量尺寸",
+		"step7": "材料送入生产",
+		"step8": "交付成品"
+	},
+	"stats": {
+		"title": "我们的成果",
+		"projects": "已完成项目",
+		"clothes": "已生产服装",
+		"partners": "合作企业",
+		"satisfaction": "客户满意度"
+	},
+	"contact": {
+		"title": "联系我们",
+
+		"phone": {
+			"title": "电话",
+			"info": "周一至周六\n09:00–19:00"
+		},
+
+		"telegram": {
+			"title": "Telegram",
+			"info": "快速回复"
+		},
+
+		"email": {
+			"title": "电子邮箱",
+			"info": "24小时内回复"
+		},
+
+		"address": {
+			"title": "地址",
+			"city": "塔什干",
+			"district": "Shaykhontohur 区"
+		}
+	}
+}
